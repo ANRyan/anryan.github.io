@@ -2,23 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>smion的博客</title>
-    <link>http://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on smion的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Mon, 23 Mar 2020 15:14:11 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>如何用 hugo 搭建个人博客</title>
+      <link>http://localhost:1313/post/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 24 Mar 2020 15:22:51 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>&lt;h1 id=&#34;1-安装-hugo&#34;&gt;1. 安装 hugo&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;用 cmder 或 vscode 运行 hugo version ，看到版本号就成功了。&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2-进入-hugo-官网点击-quick-start&#34;&gt;2. 进入 hugo 官网，点击 quick start&lt;/h1&gt;
+&lt;h2 id=&#34;照着文章出现的七个步骤做&#34;&gt;照着文章出现的七个步骤做&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;hugo version //看 hugo 的版本号&lt;/li&gt;
+&lt;li&gt;hugo new site anryan.github.io-generator //创建一个博客的生成器&lt;/li&gt;
+&lt;li&gt;git init 之后 git submodule add &lt;a href=&#34;https://github.com/budparr/gohugo-theme-ananke.git&#34;&gt;https://github.com/budparr/gohugo-theme-ananke.git&lt;/a&gt; themes/ananke //添加一个主题&lt;/li&gt;
+&lt;li&gt;hugo new posts/（你要的内容）.md //创建一个新的文章&lt;/li&gt;
+&lt;li&gt;hugo server -D //重启 hugo&lt;/li&gt;
+&lt;li&gt;配置 config.toml 文件 //用 vscode,ctrl+p 找到文件后，修改语言 language 为 zh-Hans，修改主题&lt;/li&gt;
+&lt;li&gt;hugo //创建了一个新的目录，public&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;3-把-public-上传到-github-库里去&#34;&gt;3. 把 public 上传到 GitHub 库里去&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;.gitignore 不要这个 public 要自成一个 public(就是在新成一个仓库）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在新成一个仓库,用户名必须是你的 anryan.github.io //github 用户名+io&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;只要第二行的两句代码 //只把 public 上传到这里
+&lt;img src=&#34;http://localhost:1313/1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后刷新页面，点击 settings，下拉看到 GitHub Pages，设置为 master，点击 master 上面的打钩链接就能进到博客&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>开博大吉</title>
-      <link>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>http://localhost:1313/post/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Mon, 23 Mar 2020 15:14:11 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>#大家好
-我的博客开通了，希望可以写出好的文章给大家看</description>
+      <guid>http://localhost:1313/post/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      
+        <description>&lt;p&gt;#大家好&lt;/p&gt;
+&lt;p&gt;我的博客开通了，希望可以写出好的文章给大家看&lt;/p&gt;
+</description>
+      
     </item>
     
   </channel>

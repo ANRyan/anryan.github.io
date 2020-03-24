@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on smion的博客</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on smion的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 24 Mar 2020 15:22:51 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何用 hugo 搭建个人博客</title>
+      <link>http://localhost:1313/post/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 24 Mar 2020 15:22:51 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>1. 安装 hugo 用 cmder 或 vscode 运行 hugo version ，看到版本号就成功了。 2. 进入 hugo 官网，点击 quick start 照着文章出现的七个步骤做 hugo version //看 hugo 的版本号 hugo new site anryan.github.io-generator //创建一个博客的生</description>
+    </item>
+    
+    <item>
+      <title>开博大吉</title>
+      <link>http://localhost:1313/post/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <pubDate>Mon, 23 Mar 2020 15:14:11 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <description>#大家好 我的博客开通了，希望可以写出好的文章给大家看</description>
+    </item>
+    
+  </channel>
+</rss>
